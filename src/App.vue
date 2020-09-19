@@ -6,8 +6,10 @@
 </template>
 
 <script>
+import GoodList from "./views/GoodList";
 export default {
-  name: 'App'
+  name: 'App',
+  components: {GoodList}
 }
 </script>
 
